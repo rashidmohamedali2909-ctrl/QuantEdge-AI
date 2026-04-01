@@ -49,7 +49,7 @@ The CLI version runs directly in the terminal and shows the analysis output step
 - MSFT (Microsoft)
 - NVDA (Nvidia)
 
-![Terminal Output](./assets/terminal1.png)
+![Terminal Output](/assets/terminal1.png)
 
 ![Terminal Output](./assets/terminal2.png)
 
