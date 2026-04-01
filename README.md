@@ -53,7 +53,7 @@ The CLI version runs directly in the terminal and shows the analysis output step
 
 ![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ffa595e58fc2f723bbb8823efef917d175d5b859/terminal2.png)
 
-![Terminal Output](./assets/terminal3.png)
+![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/5a22792131881d56b26d787acaf1611a10f2719b/terminal3.png)
 
 ---
 
