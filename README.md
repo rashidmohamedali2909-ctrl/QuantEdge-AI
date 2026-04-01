@@ -49,7 +49,7 @@ The CLI version runs directly in the terminal and shows the analysis output step
 - MSFT (Microsoft)
 - NVDA (Nvidia)
 
-![Terminal Output](./assets/terminal1.png)
+![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ea70eb572c82db876aeae74bb855866dc1fad976/terminal3.png)
 
 ![Terminal Output](./assets/terminal2.png)
 
