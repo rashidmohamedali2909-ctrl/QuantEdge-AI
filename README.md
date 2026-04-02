@@ -255,7 +255,7 @@ OPENAI_API_KEY=your_api_key
 
 
 ### Setup 
-
+go to QuantEdge-AI folder
 #### Step 1: Start backend
 
 ```bash
