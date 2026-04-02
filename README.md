@@ -213,6 +213,76 @@ poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --
 ---
 
 
+## Run using Frontend (Web Application)
+
+The frontend provides a simple interface to interact with QuantEdge AI.
+
+⚠️ Note: Currently, the UI works only with an OpenAI API key.
+
+---
+
+### 1. Requirements
+
+Make sure you have:
+
+* Python installed
+* Node.js (includes npm) installed
+* OpenAI API key
+
+---
+
+### 2. Setup API key
+
+Create a `.env` file in the root folder and add:
+
+```bash
+OPENAI_API_KEY=your_api_key
+```
+
+---
+
+
+### Setup 
+
+#### Step 1: Start backend
+
+```bash
+cd app/backend
+# In one terminal, from the backend directory
+cd app/backend
+poetry run uvicorn main:app --reload
+```
+
+---
+
+#### Step 2: Start frontend
+
+Open a new terminal:
+
+```bash
+cd app/frontend
+npm install
+npm run dev
+```
+
+---
+
+### 5. Access the application
+
+Open in your browser:
+
+* Frontend: http://localhost:5173
+* Backend: http://localhost:8000
+
+---
+
+💡 Notes:
+
+* Make sure both backend and frontend are running
+* If the UI doesn’t load, check terminal for errors
+* OpenAI API key is required for the frontend
+
+
 
 
 
