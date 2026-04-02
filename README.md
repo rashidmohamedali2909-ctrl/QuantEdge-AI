@@ -55,11 +55,11 @@ The CLI version runs directly in the terminal and shows the analysis output step
    - NVDA (Nvidia)
 
 Output Scheenshots (in terminal):
-![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/3519e56316ef3864249ac93298e4b13b5ece4e83/terminal1.png)
+![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/b77dfcfcdc3173799647ca119cbb33b551035de9/terminal1.png)
 
-![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ffa595e58fc2f723bbb8823efef917d175d5b859/terminal2.png)
+![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/b77dfcfcdc3173799647ca119cbb33b551035de9/terminal2.png)
 
-![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/5a22792131881d56b26d787acaf1611a10f2719b/terminal3.png)
+![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/b77dfcfcdc3173799647ca119cbb33b551035de9/terminal3.png)
 
 ---
 
@@ -72,9 +72,9 @@ The frontend provides a simple interface to run the system and view results more
 
 ⚠️ Note: Currently, the UI works only with an OpenAI API key.
 
-![Frontend UI](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ca738aae5d0f417c2144b02e9b026aa6d09a88e8/ui%201.png)
+![Frontend UI](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/b77dfcfcdc3173799647ca119cbb33b551035de9/ui%201.png)
 
-![Frontend UI](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ca738aae5d0f417c2144b02e9b026aa6d09a88e8/ui%20output.png)
+![Frontend UI](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/b77dfcfcdc3173799647ca119cbb33b551035de9/ui%20output.png)
 
 
 ---
@@ -172,7 +172,7 @@ If installed correctly, it will show the version.
 
 Next, download any model from the list shown below:
 
-![Available Models](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/9f7686c1c33fe041059525db6447e41558a1ed9d/models.png)
+![Available Models](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/b77dfcfcdc3173799647ca119cbb33b551035de9/models.png)
 
 Recommended: **llama3.1 (8b)**
 It is smaller in size and works well for most use cases.
