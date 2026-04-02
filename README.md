@@ -74,13 +74,84 @@ The frontend provides a simple interface to run the system and view results more
 
 ## How to run
 
-### Run in Terminal (CLI)
-
 #### 1. Clone and install
 
-open cmd and run the following commands
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI.git
 cd QuantEdge-AI
-pip install -r requirements.txt
+```
+
+### 2. Set up API keys
+
+Create a `.env` file for your API keys:
+```bash
+# Create .env file for your API keys (in the root directory)
+cp .env.example .env
+```
+
+Open and edit the `.env` file to add your API keys:
+```bash
+# For running LLMs hosted by openai (gpt-4o, gpt-4o-mini, etc.)
+OPENAI_API_KEY=your-openai-api-key
+
+# For getting financial data to power the AI analyser
+FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
+```
+### Run in Terminal (CLI)
+
+You can run the AI Hedge Fund directly via terminal. This approach offers more granular control and is useful for automation, scripting, and integration purposes.
+
+#### Quick Start
+
+1. Install Poetry (if not already installed):
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+2. Install dependencies:
+```bash
+poetry install
+```
+
+#### Run the AI Hedge Fund 
+```bash
+poetry run python src/main.py --ticker AAPL,MSFT,NVDA
+```
+
+You can also specify a `--ollama` flag to run the AI hedge fund using local LLMs where you no need any api key.
+
+```bash
+poetry run python src/main.py --ticker AAPL,MSFT,NVDA --ollama
+```
+
+You can optionally specify the start and end dates to make decisions over a specific time period.
+
+```bash
+poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --end-date 2024-03-01
+```
+
+## Run using Ollama (No API key)
+
+You can run QuantEdge AI using local models with Ollama. This does not require any API key.
+
+
+### 1. Install Ollama
+
+Download Ollama from:
+
+https://ollama.com
+
+- Install it like a normal application  
+- After installation, open terminal and verify:
+
+```bash
+ollama --version
+
+If installed correctly, it will show the version.
+
+
+next download any model from the list shown below.
+
+![Available Models](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/9f7686c1c33fe041059525db6447e41558a1ed9d/models.png)
