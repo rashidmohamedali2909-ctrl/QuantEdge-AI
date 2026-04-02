@@ -148,7 +148,7 @@ https://ollama.com
 
 ```bash
 ollama --version
-
+```
 If installed correctly, it will show the version.
 
 
