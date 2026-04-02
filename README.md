@@ -217,7 +217,7 @@ poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --
 
 The frontend provides a simple interface to interact with QuantEdge AI.
 
-⚠️ Note: Currently, the UI works only with an OpenAI API key.
+Note: Currently, the UI works only with an OpenAI API key.
 
 ---
 
@@ -276,7 +276,7 @@ Open in your browser:
 
 ---
 
-💡 Notes:
+Notes:
 
 * Make sure both backend and frontend are running
 * If the UI doesn’t load, check terminal for errors
