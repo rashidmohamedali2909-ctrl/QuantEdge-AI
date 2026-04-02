@@ -128,61 +128,6 @@ You can optionally specify the start and end dates to make decisions over a spec
 poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --end-date 2024-03-01
 ```
 
-## Run using Ollama (No API key)
-
-**you can skip it if you have an api key**
-You can run QuantEdge AI using local models with Ollama. This does not require any API key.
-
-
-### 1. Install Ollama
-
-Download Ollama from:
-
-https://ollama.com
-
-- Install it like a normal application  
-- After installation, open terminal and verify:
-
-```bash
-ollama --version
-```
-If installed correctly, it will show the version.
-
-
-next download any model from the list shown below.
-
-![Available Models](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/9f7686c1c33fe041059525db6447e41558a1ed9d/models.png)
-
-its recommended to download llama3.1 (8b), as its smaller in size and does its job compared to other models
-
- to download ollama execute the following command in a new terminal
- ```bash
- ollama run llama3.1:8b
-```
-after dowloading to verify enter 
-```bash
-ollama list
-```
-you'll see all the available local llm's
-
-### Run the model using ollama
-
-open a terminal and enter 
-```bash
-ollama serve
-```
-open another terminal and locate to QuantEdge-AI, but dont yet cloe the previous terminal
-
-```bash
-poetry run python src/main.py --ticker AAPL,MSFT,NVDA --ollama
-```
-follow the steps in the terminal and select the downloaded ollama model and wait for atleast 5 minutes for the analysis to complete
-
-You can optionally specify the start and end dates to make decisions over a specific time period.
-
-```bash
-poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --end-date 2024-03-01 --ollama
-```
 
 ## Run using Ollama (No API key)
 
@@ -215,10 +160,10 @@ Next, download any model from the list shown below:
 
 ![Available Models](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/9f7686c1c33fe041059525db6447e41558a1ed9d/models.png)
 
-👉 Recommended: **llama3.1 (8b)**
+Recommended: **llama3.1 (8b)**
 It is smaller in size and works well for most use cases.
 
-To download the model, run:
+To download the model, (in a new terminal) run:
 
 ```bash
 ollama run llama3.1:8b
@@ -244,9 +189,7 @@ ollama serve
 
 Open another terminal (do not close the previous one), then navigate to the project folder:
 
-```bash
-cd QuantEdge-AI
-```
+-locate to quantedge-ai folder
 
 Run the project:
 
@@ -257,7 +200,7 @@ poetry run python src/main.py --ticker AAPL,MSFT,NVDA --ollama
 Follow the steps in the terminal:
 
 * Select the downloaded model
-* Wait for the analysis (may take a few minutes)
+* Wait for the analysis (may take a few minutes, probably 5-7 mins)
 
 ---
 
@@ -266,6 +209,10 @@ Follow the steps in the terminal:
 ```bash
 poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --end-date 2024-03-01 --ollama
 ```
+
+---
+
+
 
 
 
