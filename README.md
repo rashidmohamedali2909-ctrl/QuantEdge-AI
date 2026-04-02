@@ -44,7 +44,8 @@ The CLI version runs directly in the terminal and shows the analysis output step
 
 - Supports API-based models (like OpenAI)
 - Can also run using local models (like Ollama)
-
+```
+- The following stocks can be analysed for free without any financial dataset api 
 - AAPL (Apple)
 - MSFT (Microsoft)
 - NVDA (Nvidia)
@@ -67,3 +68,18 @@ The frontend provides a simple interface to run the system and view results more
 ⚠️ Note: Currently, the UI works only with an OpenAI API key.
 
 ![Frontend UI](./assets/ui.png)
+
+---
+
+## How to run
+
+### Run in Terminal (CLI)
+
+#### 1. Clone and install
+
+open cmd and run the following commands
+
+```bash
+git clone https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI.git
+cd QuantEdge-AI
+pip install -r requirements.txt
