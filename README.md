@@ -70,7 +70,10 @@ The frontend provides a simple interface to run the system and view results more
 
 ⚠️ Note: Currently, the UI works only with an OpenAI API key.
 
-![Frontend UI](./assets/ui.png)
+![Frontend UI](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ca738aae5d0f417c2144b02e9b026aa6d09a88e8/ui%201.png)
+
+![Frontend UI](![Frontend UI](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/ca738aae5d0f417c2144b02e9b026aa6d09a88e8/ui%201.png))
+
 
 ---
 
