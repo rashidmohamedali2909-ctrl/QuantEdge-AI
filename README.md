@@ -109,16 +109,16 @@ You can run the AI Hedge Fund directly via terminal. This approach offers more g
 
 1. Install Poetry (if not already installed):
 ```bash
-python -m pip install poetry
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 if the above code doesnt work use this:
 ```bash
-py -m pip install poetry
+curl -sSL https://install.python-poetry.org | python -
 ```
 
 if both of the above code doesnt work use this:
 ```bash
-python3 -m pip install poetry
+curl -sSL https://install.python-poetry.org | py -
 ```
 
 2. Install dependencies:
