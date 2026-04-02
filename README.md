@@ -116,6 +116,11 @@ if the above code doesnt work use this:
 py -m pip install poetry
 ```
 
+if both of the above code doesnt work use this:
+```bash
+python3 -m pip install poetry
+```
+
 2. Install dependencies:
 ```bash
 poetry install
