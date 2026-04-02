@@ -2,13 +2,15 @@
 
 ## Table of Contents
 
-- Overview[#Overview]
-- What it does
-- Preview (CLI & UI)
-- How to run
-      -terminal
-      -ui frontend
-- TODO
+- [Overview](#overview)
+- [What it does](#what-it-does)
+- [Preview (CLI & UI)](#preview-cli--ui)
+- [How to run](#how-to-run)
+  - [Run in Terminal (CLI)](#run-in-terminal-cli)
+  - [Run using Ollama (No API key)](#run-using-ollama-no-api-key)
+  - [Run using Frontend (Web Application)](#run-using-frontend-web-application)
+- [Future Scope](#future-scope)
+
 
 ---
 
@@ -293,6 +295,13 @@ Notes:
 * Make sure both backend and frontend are running
 * If the UI doesn’t load, check terminal for errors
 * OpenAI API key is required for the frontend
+
+## Future Scope
+
+* Add support for multiple APIs in the frontend (beyond OpenAI)
+* Integrate local models (Ollama) directly into the UI
+* Improve model selection and flexibility in the frontend
+* Enhance overall UI/UX for better usability
 
 
 
