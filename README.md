@@ -44,7 +44,7 @@ The CLI version runs directly in the terminal and shows the analysis output step
 
 - Supports API-based models (like OpenAI)
 - Can also run using local models (like Ollama)
-```
+---
 - The following stocks can be analysed for free without any financial dataset api 
 - AAPL (Apple)
 - MSFT (Microsoft)
