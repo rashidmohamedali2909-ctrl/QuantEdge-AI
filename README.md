@@ -44,11 +44,11 @@ The CLI version runs directly in the terminal and shows the analysis output step
 
 - Supports API-based models (like OpenAI)
 - Can also run using local models (like Ollama)
----
-- The following stocks can be analysed for free without any financial dataset api 
-- AAPL (Apple)
-- MSFT (Microsoft)
-- NVDA (Nvidia)
+
+ The following stocks can be analysed for free without any financial dataset api 
+   - AAPL (Apple)
+   - MSFT (Microsoft)
+   - NVDA (Nvidia)
 
 ![Terminal Output](https://github.com/rashidmohamedali2909-ctrl/QuantEdge-AI/blob/3519e56316ef3864249ac93298e4b13b5ece4e83/terminal1.png)
 
